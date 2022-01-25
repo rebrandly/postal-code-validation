@@ -1,0 +1,1631 @@
+[
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "hk"
+            ]
+        },
+        "pattern": "^9990777$",
+        "prefix": "9990777",
+        "example": "9990777",
+        "dummyValue": "9990777"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "ie"
+            ]
+        },
+        "pattern": "^[A-Z0-9 ]{3,8}$",
+        "minLength": 3,
+        "maxLength": 8,
+        "example": "D22 AF30"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "gb"
+            ]
+        },
+        "pattern": "^(GIR[ ]?0AA|((AB|AL|B|BA|BB|BD|BH|BL|BN|BR|BS|BT|CA|CB|CF|CH|CM|CO|CR|CT|CV|CW|DA|DD|DE|DG|DH|DL|DN|DT|DY|E|EC|EH|EN|EX|FK|FY|G|GL|GY|GU|HA|HD|HG|HP|HR|HS|HU|HX|IG|IM|IP|IV|JE|KA|KT|KW|KY|L|LA|LD|LE|LL|LN|LS|LU|M|ME|MK|ML|N|NE|NG|NN|NP|NR|NW|OL|OX|PA|PE|PH|PL|PO|PR|RG|RH|RM|S|SA|SE|SG|SK|SL|SM|SN|SO|SP|SR|SS|ST|SW|SY|TA|TD|TF|TN|TQ|TR|TS|TW|UB|W|WA|WC|WD|WF|WN|WR|WS|WV|YO|ZE)(\\d[\\dA-Z]?[ ]?\\d[ABD-HJLN-UW-Z]{2}))|BFPO[ ]?\\d{1,4})$",
+        "example": "EC1A 1BB"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "je"
+            ]
+        },
+        "pattern": "^JE\\d[\\dA-Z]?[ ]?\\d[ABD-HJLN-UW-Z]{2}$",
+        "prefix": "JE",
+        "minLength": 6,
+        "maxLength": 8,
+        "example": "JE1 1AA"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "gg"
+            ]
+        },
+        "pattern": "^GY\\d[\\dA-Z]?[ ]?\\d[ABD-HJLN-UW-Z]{2}$",
+        "prefix": "GY",
+        "minLength": 6,
+        "maxLength": 8,
+        "example": "GY1 1AA"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "im"
+            ]
+        },
+        "pattern": "^IM\\d[\\dA-Z]?[ ]?\\d[ABD-HJLN-UW-Z]{2}$",
+        "prefix": "IM",
+        "minLength": 6,
+        "maxLength": 8,
+        "example": "IM1 1AA"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "ax"
+            ]
+        },
+        "pattern": "^22\\d{3}$",
+        "prefix": "22",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "22123"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "ad"
+            ]
+        },
+        "pattern": "^AD\\d{3}$",
+        "prefix": "AD",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "AD123"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "io"
+            ]
+        },
+        "pattern": "^BBND 1ZZ$",
+        "prefix": "BBND 1ZZ",
+        "minLength": 8,
+        "maxLength": 8,
+        "dummyValue": "BBND 1ZZ",
+        "example": "BBND 1ZZ"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "gl"
+            ]
+        },
+        "pattern": "^39\\d{2}$",
+        "prefix": "39",
+        "minLength": 4,
+        "maxLength": 4,
+        "example": "3912"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "mc"
+            ]
+        },
+        "pattern": "^980\\d{2}$",
+        "prefix": "980",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "98012"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "cx"
+            ]
+        },
+        "pattern": "^6798$",
+        "prefix": "6798",
+        "minLength": 4,
+        "maxLength": 4,
+        "example": "6798",
+        "dummyValue": "6798"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "pr"
+            ]
+        },
+        "pattern": "^00[679]\\d{2}([ \\-]\\d{4})?$",
+        "prefix": "00",
+        "minLength": 5,
+        "maxLength": 10,
+        "example": "00612"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "sm"
+            ]
+        },
+        "pattern": "^4789\\d$",
+        "prefix": "4789",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "4789"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "va"
+            ]
+        },
+        "pattern": "^00120$",
+        "prefix": "00120",
+        "minLength": 6,
+        "maxLength": 5,
+        "example": "00120",
+        "dummyValue": "00120"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "as"
+            ]
+        },
+        "pattern": "^96799$",
+        "prefix": "96799",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "96799",
+        "dummyValue": "96799"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "cc"
+            ]
+        },
+        "pattern": "^6799$",
+        "prefix": "6799",
+        "minLength": 4,
+        "maxLength": 4,
+        "example": "6799",
+        "dummyValue": "6799"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "me"
+            ]
+        },
+        "pattern": "^8\\d{4}$",
+        "prefix": "8",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "81234"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "fk"
+            ]
+        },
+        "pattern": "^FIQQ 1ZZ$",
+        "prefix": "FIQQ 1ZZ",
+        "dummyValue": "FIQQ 1ZZ",
+        "minLength": 8,
+        "maxLength": 8,
+        "example": "FIQQ 1ZZ"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "nf"
+            ]
+        },
+        "pattern": "^2899$",
+        "prefix": "2899",
+        "minLength": 4,
+        "maxLength": 4,
+        "example": "2899",
+        "dummyValue": "2899"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "gs"
+            ]
+        },
+        "pattern": "^SIQQ 1ZZ$",
+        "prefix": "SIQQ 1ZZ",
+        "dummyValue": "SIQQ 1ZZ",
+        "minLength": 8,
+        "maxLength": 8,
+        "example": "SIQQ 1ZZ"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "gf"
+            ]
+        },
+        "pattern": "^9[78]3\\d{2}$",
+        "prefix": "9",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "97312"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "gp"
+            ]
+        },
+        "pattern": "^9[78][01]\\d{2}$",
+        "prefix": "9",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "97012"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "gu"
+            ]
+        },
+        "pattern": "^969[123]\\d([ \\-]\\d{4})?$",
+        "prefix": "969",
+        "minLength": 5,
+        "maxLength": 10,
+        "example": "96911"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "mh"
+            ]
+        },
+        "pattern": "^969[67]\\d([ \\-]\\d{4})?$",
+        "prefix": "969",
+        "minLength": 5,
+        "maxLength": 9,
+        "example": "96961"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "mp"
+            ]
+        },
+        "pattern": "^9695[012]([ \\-]\\d{4})?$",
+        "prefix": "9695",
+        "minLength": 5,
+        "maxLength": 10,
+        "example": "96950"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "mq"
+            ]
+        },
+        "pattern": "^9[78]2\\d{2}$",
+        "prefix": "9",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "97212"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "nc"
+            ]
+        },
+        "pattern": "^988\\d{2}$",
+        "prefix": "988",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "98812"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "vi"
+            ]
+        },
+        "pattern": "^(008(([0-4]\\d)|(5[01]))([ \\-]\\d{4})?)$",
+        "example": "00801 1234"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "pf"
+            ]
+        },
+        "pattern": "^987\\d{2}$",
+        "prefix": "987",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "98712"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "pm"
+            ]
+        },
+        "pattern": "^9[78]5\\d{2}$",
+        "prefix": "9",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "97512"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "pn"
+            ]
+        },
+        "pattern": "^PCRN 1ZZ$",
+        "prefix": "PCRN 1ZZ",
+        "dummyValue": "PCRN 1ZZ",
+        "minLength": 8,
+        "maxLength": 8,
+        "example": "PCRN 1ZZ"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "pw"
+            ]
+        },
+        "pattern": "^96940$",
+        "prefix": "96940",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "96940",
+        "dummyValue": "96940"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "re"
+            ]
+        },
+        "pattern": "^9[78]4\\d{2}$",
+        "prefix": "9",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "97412"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "tc"
+            ]
+        },
+        "pattern": "^TKCA 1ZZ$",
+        "prefix": "TKCA 1ZZ",
+        "dummyValue": "TKCA 1ZZ",
+        "minLength": 8,
+        "maxLength": 8,
+        "example": "TKCA 1ZZ"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "wf"
+            ]
+        },
+        "pattern": "^986\\d{2}$",
+        "prefix": "986",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "98612"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "yt"
+            ]
+        },
+        "pattern": "^976\\d{2}$",
+        "prefix": "976",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "97612"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "us"
+            ]
+        },
+        "pattern": "^\\d{5}([ \\-]\\d{4})?$",
+        "minLength": 5,
+        "maxLength": 10,
+        "example": "12345"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "ca"
+            ]
+        },
+        "pattern": "^[ABCEGHJKLMNPRSTVXY]\\d[ABCEGHJ-NPRSTV-Z][ ]?\\d[ABCEGHJ-NPRSTV-Z]\\d$",
+        "minLength": 6,
+        "maxLength": 7,
+        "example": "A1A1A1"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "fo",
+                "is",
+                "gn",
+                "ls",
+                "mg",
+                "pg"
+            ]
+        },
+        "pattern": "^\\d{3}$",
+        "minLength": 3,
+        "maxLength": 3,
+        "example": "123"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "ch",
+                "at",
+                "be",
+                "dk",
+                "no",
+                "az",
+                "bg",
+                "cv",
+                "cy",
+                "ge",
+                "ht",
+                "hu",
+                "lu",
+                "mk",
+                "md",
+                "py",
+                "ph",
+                "tn",
+                "ve",
+                "ck",
+                "et",
+                "gw",
+                "hm",
+                "lr",
+                "ne",
+                "sj",
+                "bd",
+                "za",
+                "al",
+                "si",
+                "nz"
+            ]
+        },
+        "pattern": "^\\d{4}$",
+        "minLength": 4,
+        "maxLength": 4,
+        "example": "1234"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "mu",
+                "de",
+                "it",
+                "fi",
+                "dz",
+                "kh",
+                "hr",
+                "eg",
+                "ee",
+                "gt",
+                "id",
+                "jo",
+                "ke",
+                "kw",
+                "la",
+                "lt",
+                "my",
+                "mv",
+                "mx",
+                "ma",
+                "np",
+                "pk",
+                "sa",
+                "sn",
+                "lk",
+                "th",
+                "tr",
+                "ua",
+                "uy",
+                "zm",
+                "cs",
+                "yu",
+                "iq",
+                "so",
+                "xk",
+                "ba",
+                "hn",
+                "kr"
+            ]
+        },
+        "pattern": "^\\d{5}$",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "12345"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "cn",
+                "sg",
+                "by",
+                "in",
+                "kz",
+                "ro",
+                "ru",
+                "tj",
+                "tm",
+                "uz",
+                "rs",
+                "kg",
+                "mn",
+                "ec",
+                "ng",
+                "co"
+            ]
+        },
+        "pattern": "^\\d{6}$",
+        "minLength": 6,
+        "maxLength": 6,
+        "example": "123456"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "cl",
+                "il"
+            ]
+        },
+        "pattern": "^\\d{7}$",
+        "minLength": 7,
+        "maxLength": 7,
+        "example": "1234567"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "jp"
+            ]
+        },
+        "pattern": "^\\d{3}\\-\\d{4}$",
+        "minLength": 8,
+        "maxLength": 8,
+        "example": "123-1234"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "au"
+            ]
+        },
+        "pattern": "^([A-Z]{3})?[ ]?\\d{4}$",
+        "minLength": 4,
+        "maxLength": 8,
+        "example": "2000"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "fr"
+            ]
+        },
+        "pattern": "^\\d{2}[ ]?\\d{3}$",
+        "minLength": 5,
+        "maxLength": 6,
+        "example": "12345"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "nl"
+            ]
+        },
+        "pattern": "^\\d{4}[ ]?[A-Z]{2}$",
+        "minLength": 6,
+        "maxLength": 7,
+        "example": "1000 NL"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "se"
+            ]
+        },
+        "pattern": "^\\d{3}[ ]?\\d{2}$",
+        "minLength": 5,
+        "maxLength": 6,
+        "example": "12345"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "br"
+            ]
+        },
+        "pattern": "^\\d{5}[\\-]?\\d{3}$",
+        "minLength": 8,
+        "maxLength": 9,
+        "example": "12345678"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "pt"
+            ]
+        },
+        "pattern": "^\\d{4}([\\-]\\d{3})?$",
+        "minLength": 4,
+        "maxLength": 8,
+        "example": "12345678"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "tw"
+            ]
+        },
+        "pattern": "^\\d{3}(\\d{2})?$",
+        "minLength": 3,
+        "maxLength": 5,
+        "example": "123"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "ar"
+            ]
+        },
+        "pattern": "^([A-HJ-NP-Z])?\\d{4}([A-Z]{3})?$",
+        "minLength": 4,
+        "maxLength": 8,
+        "example": "1234"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "am"
+            ]
+        },
+        "pattern": "^(37)?\\d{4}$",
+        "minLength": 4,
+        "maxLength": 6,
+        "example": "1234"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "bh"
+            ]
+        },
+        "pattern": "^\\d{3,4}$",
+        "minLength": 3,
+        "maxLength": 4,
+        "example": "123"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "bb"
+            ]
+        },
+        "pattern": "^BB\\d{5}$",
+        "prefix": "BB",
+        "minLength": 7,
+        "maxLength": 7,
+        "example": "BB12345"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "bm"
+            ]
+        },
+        "pattern": "^[A-Z]{2}[ ]?[A-Z0-9]{2}$",
+        "minLength": 4,
+        "maxLength": 5,
+        "example": "AB A1"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "bn"
+            ]
+        },
+        "pattern": "^[A-Z]{2}[ ]?\\d{4}$",
+        "minLength": 6,
+        "maxLength": 7,
+        "example": "AB 1234"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "cr"
+            ]
+        },
+        "pattern": "^(\\d{4,5}|\\d{3}-\\d{4})$",
+        "minLength": 4,
+        "maxLength": 7,
+        "example": "1234"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "cz"
+            ]
+        },
+        "pattern": "^\\d{3}[ ]?\\d{2}$",
+        "minLength": 5,
+        "maxLength": 6,
+        "example": "123 12"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "gr"
+            ]
+        },
+        "pattern": "^\\d{3}[ ]?\\d{1,2}$",
+        "minLength": 4,
+        "maxLength": 6,
+        "example": "123 12"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "lb"
+            ]
+        },
+        "pattern": "^\\d{4}([ ]?\\d{4})?$",
+        "minLength": 4,
+        "maxLength": 9,
+        "example": "1234 1234"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "li"
+            ]
+        },
+        "pattern": "^((948[5-9])|(949[0-7]))$",
+        "minLength": 4,
+        "maxLength": 4,
+        "example": "9485"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "mt"
+            ]
+        },
+        "pattern": "^[A-Z]{3}[ ]?\\d{2,4}$",
+        "minLength": 5,
+        "maxLength": 8,
+        "example": "ABC 12"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "ni"
+            ]
+        },
+        "pattern": "^((\\d{4}-)?\\d{3}-\\d{3}(-\\d{1})?)?$",
+        "example": "1234-123-123"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "om"
+            ]
+        },
+        "pattern": "^(PC )?\\d{3}$",
+        "minLength": 3,
+        "maxLength": 6,
+        "example": "PC 123"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "pl"
+            ]
+        },
+        "pattern": "^\\d{2}-\\d{3}$",
+        "minLength": 6,
+        "maxLength": 6,
+        "example": "12-123"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "sk"
+            ]
+        },
+        "pattern": "^\\d{3}[ ]?\\d{2}$",
+        "minLength": 5,
+        "maxLength": 6,
+        "example": "123 12"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "fm"
+            ]
+        },
+        "pattern": "^(9694[1-4])([ \\-]\\d{4})?$",
+        "minLength": 5,
+        "maxLength": 10,
+        "example": "96941"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "sh"
+            ]
+        },
+        "pattern": "^((ASCN|STHL) 1ZZ)$",
+        "minLength": 8,
+        "maxLength": 8,
+        "example": "ASCN 1ZZ"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "sz"
+            ]
+        },
+        "pattern": "^[HLMS]\\d{3}$",
+        "minLength": 4,
+        "maxLength": 4,
+        "example": "H123"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "vn"
+            ]
+        },
+        "pattern": "^\\d{6}$",
+        "minLength": 6,
+        "maxLength": 6,
+        "example": "100000"
+    },
+    {
+        "when": {
+            "propertyName": "country",
+            "hasValues": [
+                "bo"
+            ]
+        },
+        "pattern": "^0000$",
+        "prefix": "0000",
+        "minLength": 4,
+        "maxLength": 4,
+        "example": "0000",
+        "dummyValue": "0000"
+    },
+    {
+        "when": {
+            "propertyName": "state",
+            "hasValues": [
+                "ARABA"
+            ]
+        },
+        "prefix": "01",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "01000"
+    },
+    {
+        "when": {
+            "propertyName": "state",
+            "hasValues": [
+                "LUGO"
+            ]
+        },
+        "prefix": "27",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "27000"
+    },
+    {
+        "when": {
+            "propertyName": "state",
+            "hasValues": [
+                "ALBACETE"
+            ]
+        },
+        "prefix": "02",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "02000"
+    },
+    {
+        "when": {
+            "propertyName": "state",
+            "hasValues": [
+                "MADRID"
+            ]
+        },
+        "prefix": "28",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "28000"
+    },
+    {
+        "when": {
+            "propertyName": "state",
+            "hasValues": [
+                "ALICANTE"
+            ]
+        },
+        "prefix": "03",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "03000"
+    },
+    {
+        "when": {
+            "propertyName": "state",
+            "hasValues": [
+                "MALAGA"
+            ]
+        },
+        "prefix": "29",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "29000"
+    },
+    {
+        "when": {
+            "propertyName": "state",
+            "hasValues": [
+                "ALMERIA"
+            ]
+        },
+        "prefix": "04",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "04000"
+    },
+    {
+        "when": {
+            "propertyName": "state",
+            "hasValues": [
+                "MURCIA"
+            ]
+        },
+        "prefix": "30",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "30000"
+    },
+    {
+        "when": {
+            "propertyName": "state",
+            "hasValues": [
+                "AVILA"
+            ]
+        },
+        "prefix": "05",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "05000"
+    },
+    {
+        "when": {
+            "propertyName": "state",
+            "hasValues": [
+                "NAVARR"
+            ]
+        },
+        "prefix": "31",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "31000"
+    },
+    {
+        "when": {
+            "propertyName": "state",
+            "hasValues": [
+                "BADAJOX"
+            ]
+        },
+        "prefix": "06",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "06000"
+    },
+    {
+        "when": {
+            "propertyName": "state",
+            "hasValues": [
+                "OURENSE"
+            ]
+        },
+        "prefix": "32",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "32000"
+    },
+    {
+        "when": {
+            "propertyName": "state",
+            "hasValues": [
+                "ILLES BALEARS"
+            ]
+        },
+        "prefix": "07",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "07000"
+    },
+    {
+        "when": {
+            "propertyName": "state",
+            "hasValues": [
+                "ASTURIAS"
+            ]
+        },
+        "prefix": "33",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "33000"
+    },
+    {
+        "when": {
+            "propertyName": "state",
+            "hasValues": [
+                "BARCELONA"
+            ]
+        },
+        "prefix": "08",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "08000"
+    },
+    {
+        "when": {
+            "propertyName": "state",
+            "hasValues": [
+                "PALENCIA"
+            ]
+        },
+        "prefix": "34",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "34000"
+    },
+    {
+        "when": {
+            "propertyName": "state",
+            "hasValues": [
+                "BURGOS"
+            ]
+        },
+        "prefix": "09",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "09000"
+    },
+    {
+        "when": {
+            "propertyName": "state",
+            "hasValues": [
+                "PALMAS, LAS"
+            ]
+        },
+        "prefix": "35",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "35000"
+    },
+    {
+        "when": {
+            "propertyName": "state",
+            "hasValues": [
+                "CACERAS"
+            ]
+        },
+        "prefix": "10",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "10000"
+    },
+    {
+        "when": {
+            "propertyName": "state",
+            "hasValues": [
+                "PONTEVEDRA"
+            ]
+        },
+        "prefix": "36",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "36000"
+    },
+    {
+        "when": {
+            "propertyName": "state",
+            "hasValues": [
+                "CADIZ"
+            ]
+        },
+        "prefix": "11",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "11000"
+    },
+    {
+        "when": {
+            "propertyName": "state",
+            "hasValues": [
+                "SALAMANCA"
+            ]
+        },
+        "prefix": "37",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "37000"
+    },
+    {
+        "when": {
+            "propertyName": "state",
+            "hasValues": [
+                "CASTELLON"
+            ]
+        },
+        "prefix": "12",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "12000"
+    },
+    {
+        "when": {
+            "propertyName": "state",
+            "hasValues": [
+                "SANTA CRUZ DE TENERIFE"
+            ]
+        },
+        "prefix": "38",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "38000"
+    },
+    {
+        "when": {
+            "propertyName": "state",
+            "hasValues": [
+                "CIUDAD REAL"
+            ]
+        },
+        "prefix": "13",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "13000"
+    },
+    {
+        "when": {
+            "propertyName": "state",
+            "hasValues": [
+                "CANTABRIA"
+            ]
+        },
+        "prefix": "39",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "39000"
+    },
+    {
+        "when": {
+            "propertyName": "state",
+            "hasValues": [
+                "CORDOBA"
+            ]
+        },
+        "prefix": "14",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "14000"
+    },
+    {
+        "when": {
+            "propertyName": "state",
+            "hasValues": [
+                "SEGOVIA"
+            ]
+        },
+        "prefix": "40",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "40000"
+    },
+    {
+        "when": {
+            "propertyName": "state",
+            "hasValues": [
+                "CORUNA, A"
+            ]
+        },
+        "prefix": "15",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "15000"
+    },
+    {
+        "when": {
+            "propertyName": "state",
+            "hasValues": [
+                "SEVILLA"
+            ]
+        },
+        "prefix": "41",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "41000"
+    },
+    {
+        "when": {
+            "propertyName": "state",
+            "hasValues": [
+                "CUENCA"
+            ]
+        },
+        "prefix": "16",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "16000"
+    },
+    {
+        "when": {
+            "propertyName": "state",
+            "hasValues": [
+                "SORIA"
+            ]
+        },
+        "prefix": "42",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "42000"
+    },
+    {
+        "when": {
+            "propertyName": "state",
+            "hasValues": [
+                "GIRONA"
+            ]
+        },
+        "prefix": "17",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "17000"
+    },
+    {
+        "when": {
+            "propertyName": "state",
+            "hasValues": [
+                "TERRAGONA"
+            ]
+        },
+        "prefix": "43",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "43000"
+    },
+    {
+        "when": {
+            "propertyName": "state",
+            "hasValues": [
+                "GRANADA"
+            ]
+        },
+        "prefix": "18",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "18000"
+    },
+    {
+        "when": {
+            "propertyName": "state",
+            "hasValues": [
+                "TERUEL"
+            ]
+        },
+        "prefix": "44",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "44000"
+    },
+    {
+        "when": {
+            "propertyName": "state",
+            "hasValues": [
+                "GUADALAJARA"
+            ]
+        },
+        "prefix": "19",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "19000"
+    },
+    {
+        "when": {
+            "propertyName": "state",
+            "hasValues": [
+                "TOLEDO"
+            ]
+        },
+        "prefix": "45",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "45000"
+    },
+    {
+        "when": {
+            "propertyName": "state",
+            "hasValues": [
+                "GIPUZKOA"
+            ]
+        },
+        "prefix": "20",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "20000"
+    },
+    {
+        "when": {
+            "propertyName": "state",
+            "hasValues": [
+                "VALENCIA"
+            ]
+        },
+        "prefix": "46",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "46000"
+    },
+    {
+        "when": {
+            "propertyName": "state",
+            "hasValues": [
+                "MUELVA"
+            ]
+        },
+        "prefix": "21",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "21000"
+    },
+    {
+        "when": {
+            "propertyName": "state",
+            "hasValues": [
+                "VALLADOLID"
+            ]
+        },
+        "prefix": "47",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "47000"
+    },
+    {
+        "when": {
+            "propertyName": "state",
+            "hasValues": [
+                "HUESCA"
+            ]
+        },
+        "prefix": "22",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "22000"
+    },
+    {
+        "when": {
+            "propertyName": "state",
+            "hasValues": [
+                "BIZKAIA"
+            ]
+        },
+        "prefix": "48",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "48000"
+    },
+    {
+        "when": {
+            "propertyName": "state",
+            "hasValues": [
+                "JAEN"
+            ]
+        },
+        "prefix": "23",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "23000"
+    },
+    {
+        "when": {
+            "propertyName": "state",
+            "hasValues": [
+                "ZAMORA"
+            ]
+        },
+        "prefix": "49",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "49000"
+    },
+    {
+        "when": {
+            "propertyName": "state",
+            "hasValues": [
+                "LEON"
+            ]
+        },
+        "prefix": "24",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "24000"
+    },
+    {
+        "when": {
+            "propertyName": "state",
+            "hasValues": [
+                "ZARAGOZA"
+            ]
+        },
+        "prefix": "50",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "50000"
+    },
+    {
+        "when": {
+            "propertyName": "state",
+            "hasValues": [
+                "LLEIDA"
+            ]
+        },
+        "prefix": "25",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "25000"
+    },
+    {
+        "when": {
+            "propertyName": "state",
+            "hasValues": [
+                "CEUTA"
+            ]
+        },
+        "prefix": "51",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "51000"
+    },
+    {
+        "when": {
+            "propertyName": "state",
+            "hasValues": [
+                "RIOJA, LA"
+            ]
+        },
+        "prefix": "26",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "26000"
+    },
+    {
+        "when": {
+            "propertyName": "state",
+            "hasValues": [
+                "MELILLA"
+            ]
+        },
+        "prefix": "52",
+        "minLength": 5,
+        "maxLength": 5,
+        "example": "52000"
+    }
+]
